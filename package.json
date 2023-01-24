@@ -1,0 +1,28 @@
+{
+  "name": "vtk-proxymanager-discourse",
+  "version": "1.0.0",
+  "description": "Attempts to build a simple proxy using information and resources available here: https://discourse.vtk.org/t/vtk-js-proxies/5476",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --mode=development",
+    "start": "webpack serve --progress --mode=development --static=dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidshq/vtk-proxymanager-discourse.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/davidshq/vtk-proxymanager-discourse/issues"
+  },
+  "homepage": "https://github.com/davidshq/vtk-proxymanager-discourse#readme",
+  "dependencies": {
+    "@kitware/vtk.js": "^26.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
