@@ -57,7 +57,7 @@ export default {
   representations: {
     View3D: {
       vtkImageData: { name: 'Volume' },
-      vtkPolyData: { name: 'Geometry' },
+      vtkPolyData: { name: 'Geometry' }, // Use this for single volume representation
     },
     View2D: {
       vtkImageData: { name: 'ImageSlice' },
